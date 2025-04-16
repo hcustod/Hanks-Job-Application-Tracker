@@ -80,3 +80,4 @@ class JobEntryForm(QDialog):
         self.close()
 
 
+

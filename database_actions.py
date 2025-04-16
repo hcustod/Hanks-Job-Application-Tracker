@@ -45,5 +45,14 @@ def delete_job(job_id):
     conn.commit()
     conn.close()
 
+def edit_job(job_id, job_title, company, location, status, application_date, notes):
+    conn = sqlite3.connect('jobs_main.db')
+    c = conn.cursor()
+    c.execute("")
+    conn.commit()
+    conn.close()
+
+
+
 
 
