@@ -49,4 +49,11 @@ class JobTrackerApp(QWidget):
         self.job_options = JobAdditionOptionsDialog(self, self.load_jobs)
         self.job_options.show()
 
+    # TODO;
+    def edit_job(self, job_id):
+        edit_job(job_id)
+        self.load_jobs()
+
+
+
 
