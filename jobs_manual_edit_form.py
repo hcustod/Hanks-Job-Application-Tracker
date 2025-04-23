@@ -1,7 +1,9 @@
 class JobEditForm():
-    def __init__(self, job):
+    def __init__(self, parent, job):
+        super().__init__(parent)
+        self.setWindowTitle("Manual Job Entry Form")
+        self.setGeometry(400, 400, 400, 400)
         self.job = job
-
 
 
 
