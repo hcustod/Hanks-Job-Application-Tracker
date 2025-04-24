@@ -5,7 +5,13 @@ class JobEditForm():
         self.setGeometry(400, 400, 400, 400)
         self.job = job
 
+        layout = QVBoxLayout()
 
+        # fields
+        self.title_label = QLabel("Job Title: ")
+        self.title_input = QLineEdit()
+        layout.addWidget(self.title_label)
+        layout.addWidget(self.title_input)
 
 
     def go_back(self):
