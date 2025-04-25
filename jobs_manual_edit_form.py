@@ -13,6 +13,8 @@ class JobEditForm():
         layout.addWidget(self.title_label)
         layout.addWidget(self.title_input)
 
+        # continue with rest of fields
+
 
     def go_back(self):
         self.close()
